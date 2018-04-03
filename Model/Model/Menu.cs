@@ -29,5 +29,6 @@ namespace Model.Model
         public string Target { set; get; }
         [Required]
         public bool Status { set; get; }
+        
     }
 }

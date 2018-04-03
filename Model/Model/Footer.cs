@@ -8,8 +8,8 @@ namespace Model.Model
     {
         [Key]
         public string ID { get; set; }
-
         [Required]
+        [MaxLength(256)]
         public string Content { get; set; }
     }
 }
