@@ -16,7 +16,9 @@ namespace Model.Model
         public int ID { set; get; }
         [Required]
         public string Name { set; get; }
+        [Column(TypeName = "varchar")]
         [Required]
+        [MaxLength(250)]
         public string Alias { set; get; }
         [Required]
         public string PostCategoryID { set; get; }

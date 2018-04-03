@@ -7,10 +7,11 @@ namespace Model.Model
     public class Footer
     {
         [Key]
+        [MaxLength(50)]
         public string ID { get; set; }
         [Required]
         [MaxLength(256)]
         public string Content { get; set; }
-        int a;
+        
     }
 }

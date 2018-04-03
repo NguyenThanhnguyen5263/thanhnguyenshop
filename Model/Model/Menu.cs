@@ -15,6 +15,7 @@ namespace Model.Model
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
         [Required]
+        [MaxLength(50)]
         public string Name { set; get; }
         [Required]
         public string URL { set; get; }
@@ -25,7 +26,7 @@ namespace Model.Model
 
         [ForeignKey("MenuGroupID")]
         public virtual MenuGroup Menugroup { set; get; }
-
+        [MaxLength(10)]
         public string Target { set; get; }
         [Required]
         public bool Status { set; get; }

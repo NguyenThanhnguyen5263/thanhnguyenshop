@@ -16,7 +16,12 @@ namespace Model.Model
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
+        [MaxLength(250)]
         public string Name { set; get; }
+        [Column(TypeName ="varchar")]
+        [Required]
+        [MaxLength(250)]
+        public string Alias { set; get; }
         [MaxLength(256)]
         public string Content { set; get; }
 

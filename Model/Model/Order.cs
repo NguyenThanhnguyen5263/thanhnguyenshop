@@ -12,14 +12,19 @@ namespace Model.Model
    public class Order
     {
        [Key]
+       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
         [Required]
+        [MaxLength(250)]
         public string CustomerName { set; get; }
         [Required]
+        [MaxLength(250)]
         public string CustomerAddress { set; get; }
         [Required]
+        [MaxLength(250)]
         public string CustomerEmail { set; get; }
         [Required]
+        [MaxLength(50)]
         public string CustomerMobile { set; get; }
         public DateTime CreateDate { set; get; }
         public string CreateBy { set; get; }
