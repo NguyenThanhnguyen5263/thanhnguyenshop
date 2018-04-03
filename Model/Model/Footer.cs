@@ -11,5 +11,6 @@ namespace Model.Model
         [Required]
         [MaxLength(256)]
         public string Content { get; set; }
+        int a;
     }
 }
