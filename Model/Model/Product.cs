@@ -16,13 +16,13 @@ namespace Model.Model
 
         [Required]
         public string Name { set; get; }
-
         [Required]
         public string Alias { set; get; }
 
         public int CategoryID { set; get; }
         public string Image { set; get; }
-        public XElement MoreImage { set; get; }
+        [Column(TypeName ="xml")]
+        public string MoreImage { set; get; }
         public string Description { set; get; }
 
         [Required]

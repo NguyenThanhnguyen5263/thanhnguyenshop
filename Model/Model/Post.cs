@@ -21,7 +21,7 @@ namespace Model.Model
         [MaxLength(250)]
         public string Alias { set; get; }
         [Required]
-        public string PostCategoryID { set; get; }
+        public int PostCategoryID { set; get; }
         public string Image { set; get; }
         public string Description { set; get; }
         public string Content { set; get; }

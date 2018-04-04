@@ -10,7 +10,7 @@ namespace Data
 {
    public class ThanhNguyenShopDbContext: DbContext
     {
-        public ThanhNguyenShopDbContext() : base("")
+        public ThanhNguyenShopDbContext() : base("ThanhNguyenShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
