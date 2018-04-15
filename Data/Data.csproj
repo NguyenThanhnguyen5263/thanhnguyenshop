@@ -59,8 +59,23 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Responsitory\FooterResponsesitory.cs" />
+    <Compile Include="Responsitory\MenuGroupResponesitory.cs" />
+    <Compile Include="Responsitory\MenuResponsesitory.cs" />
+    <Compile Include="Responsitory\OrderDetailResponsesitory.cs" />
+    <Compile Include="Responsitory\OrderResponsesitory.cs" />
+    <Compile Include="Responsitory\PageResponesitory.cs" />
+    <Compile Include="Responsitory\PostCategoryResponesitory.cs" />
+    <Compile Include="Responsitory\PostResponesitory.cs" />
+    <Compile Include="Responsitory\PostTagResponsesitory.cs" />
     <Compile Include="Responsitory\ProductCategoryResponesitory.cs" />
     <Compile Include="Responsitory\ProductResponesitory.cs" />
+    <Compile Include="Responsitory\ProductTagResponsesitory.cs" />
+    <Compile Include="Responsitory\SlideResponesitory.cs" />
+    <Compile Include="Responsitory\SupportOnlineResponsesitory.cs" />
+    <Compile Include="Responsitory\SystemConfigResponsesitory.cs" />
+    <Compile Include="Responsitory\TagResponsesitory.cs" />
+    <Compile Include="Responsitory\VisitorStatisticResponsesitory.cs" />
     <Compile Include="ThanhNguyenShopDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
