@@ -17,7 +17,7 @@ namespace Data.Responsitory
     {
         public OrderDetailResponsesitory(DbFactory dbFactory) : base(dbFactory)
         {
-
+            string s = "";
         }
     }
 }
